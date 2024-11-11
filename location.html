@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sea Animal Explorer by Location</title>
+    <link rel="stylesheet" href="location.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Oswald:wght@200..700&family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <div class="card">
+        <h2>Coastal and Reef Zones</h2>
+        <select id="coral-reefs">
+            <option value="">Select Location</option>
+            <option value="Coral Reefs">Coral Reefs</option>
+            <option value="Coastal Waters">Coastal Waters</option>
+            <option value="Shallow Coastal Waters">Shallow Coastal Waters</option>
+            <option value="Tidal Pools">Tidal Pools</option>
+        </select>
+        <div id="coral-reefs-result" class="animal-info"></div>
+    </div>
+
+    <div class="card">
+        <h2>Deep and Open Waters</h2>
+        <select id="deep-sea">
+            <option value="">Select Location</option>
+            <option value="Deep Sea">Deep Sea</option>
+            <option value="Open Waters">Open Waters</option>
+            <option value="Open Ocean">Open Ocean</option>
+        </select>
+        <div id="deep-sea-result" class="animal-info"></div>
+    </div>
+
+    <div class="card">
+        <h2>Oceans</h2>
+        <select id="oceans">
+            <option value="">Select Location</option>
+            <option value="Atlantic">Atlantic</option>
+            <option value="Antarctic Ocean">Antarctic Ocean</option>
+            <option value="Indian Ocean">Indian Ocean</option>
+            <option value="Indo-Pacific">Indo-Pacific</option>
+            <option value="Pacific Ocean">Pacific Ocean</option>
+            <option value="Arctic Waters">Arctic Waters</option>
+        </select>
+        <div id="oceans-result" class="animal-info"></div>
+    </div>
+
+    <div class="card">
+        <h2>Temperature Zones</h2>
+        <select id="temperature-based">
+            <option value="">Select Location</option>
+            <option value="Tropical and Subtropical Waters">Tropical and Subtropical Waters</option>
+            <option value="Tropical Waters">Tropical Waters</option>
+            <option value="Temperate Seas">Temperate Seas</option>
+            <option value="Warm Coastal Waters">Warm Coastal Waters</option>
+            <option value="Cold Arctic Waters">Cold Arctic Waters</option>
+            <option value="Cold Oceans">Cold Oceans</option>
+        </select>
+        <div id="temperature-based-result" class="animal-info"></div>
+    </div>
+
+    <a href="index.html" class="arrow">&lt;</a>
+
+    <script src="location.js"></script>
+</body>
+</html>
